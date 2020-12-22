@@ -1,23 +1,25 @@
-# todo-app-02
+# todo-app-03
 
 ## Project setup
 ```
-npm install
+npm install -g @vue/cli
+
+vue create todo-app
+
+cd todo-app
+
+npm install sass-loader node-sass --save
+
 ```
 
-### Compiles and hot-reloads for development
+### vuex
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm install vuex@next --save
 ```
 
-### Lints and fixes files
+### axios(https://www.npmjs.com/package/axios)
 ```
-npm run lint
+npm i axios
 ```
 
 ### Customize configuration
